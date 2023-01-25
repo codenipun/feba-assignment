@@ -1,0 +1,67 @@
+.mainContainer{
+    font-family: "Roboto";
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 70px;
+    height: 30px;
+}
+
+.logoName{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.imgSec{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.filters{
+    border-bottom: 1px solid black;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.cities{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid black;
+    font-size: 14px;
+}
+
+.setting{
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+}
+
+.filtersWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid black;
+    padding: 10px;
+}
